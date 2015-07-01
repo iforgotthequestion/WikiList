@@ -1,0 +1,24 @@
+{
+
+
+  "name": "WikiList",
+  "description": "This extension maintains a list of Wikipedia articles you have read",
+  "version": "1.0",
+
+  "page_action": {
+    "default_icon": "icon.png",
+    "default_title": "Add to WikiList!"
+  },
+
+  "background": {
+    "scripts":["background.js"],
+    "Persistent": true
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "manifest_version": 2
+
+}

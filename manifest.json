@@ -1,0 +1,23 @@
+{
+  "name": "WikiLinks",
+  "description": "A list of Wikipedia articles you have read",
+  "version": "1.0",
+
+  "page_action": {
+    "default_icon": "wiki48.png",
+    "default_title": "Add to WikiLinks!"
+  },
+
+  "background": {
+    "scripts":["background.js"],
+    "Persistent": true
+  },
+
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+
+  "manifest_version": 2
+
+}
